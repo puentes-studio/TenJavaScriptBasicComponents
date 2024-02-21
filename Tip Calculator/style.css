@@ -1,0 +1,90 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: dimgray;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 150px auto;
+    padding: 20px;
+    background-color: black;
+    border-radius: 8px;
+
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid white;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.input-group input,
+.input-group select {
+    width: 94%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #c50752;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+.input-group select {
+    width: 100%;
+}
+
+.input-group input::-webkit-outer-spin-button,
+.input-group input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.input-group input:focus
+.input-group select:focus {
+    outline: none;
+    border-color: #c50752;
+}
+
+.result {
+    margin-top: 30px;
+    border-top: 2px solid white;
+    padding-top: 20px;
+}
+
+.result h2 {
+    color: aliceblue;
+    margin-bottom: 15px;
+}
+
+.result div {
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+
+#calculateButton {
+    padding: 12px 20px;
+    background-color: #c50752;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#calculateButton:hover {
+    background-color: #63042a;
+}
